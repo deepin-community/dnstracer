@@ -1,0 +1,18 @@
+From: Jari Aalto <jari.aalto@cante.net>
+Subject: Fix typos
+
+---
+ dnstracer.c |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/dnstracer.c
++++ b/dnstracer.c
+@@ -662,7 +662,7 @@ dump_header(struct dnsheader *header)
+     case 6: printf("(Name exists)\n");break;
+     case 7: printf("(RRset exists)\n");break;
+     case 8: printf("(RRset does not exist)\n");break;
+-    case 9: printf("(Not authoritive)\n");break;
++    case 9: printf("(Not authoritative)\n");break;
+     case 10: printf("(Zone of record different from zone section)\n");break;
+     default: printf("(unknown)\n");break;
+     }

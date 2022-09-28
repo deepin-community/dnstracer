@@ -1,0 +1,2 @@
+Test-Command: dnstracer -c -s . -4 debian.org
+Restrictions: needs-internet

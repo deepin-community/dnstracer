@@ -1,0 +1,18 @@
+Source: dnstracer
+Section: net
+Priority: optional
+Maintainer: Aloïs Micard <creekorful@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/creekorful/dnstracer
+Vcs-Git: https://salsa.debian.org/creekorful/dnstracer.git
+Homepage: http://www.mavetju.org/unix/dnstracer.php
+Rules-Requires-Root: no
+
+Package: dnstracer
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: trace DNS queries to the source
+ dnstracer determines where a given Domain Name Server (DNS) gets its
+ information from for a given hostname, and follows the chain of DNS
+ servers back to the authoritative answer.
